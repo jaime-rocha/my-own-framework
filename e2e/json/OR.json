@@ -1,0 +1,33 @@
+{
+  "testsinurl": "http://localhost:3000/sign-in",
+  "locators": {
+
+    "login":{
+       "bisaLogo":"bisa-neo-login",
+
+       "nextbuttontext":"Siguiente",
+       "nextbuttonbind":"'global.next'| translate",
+       "enterbuttontext":"Ingresar",
+       "createbuttontext":"Crear",
+       "confirmbuttontext":"Confirmar",
+       "acceptbuttontext":"Aceptar",
+
+       "cinumber":"userInfo.ciNumber",
+       "birthdate":"user.birthDate",
+       "token":"user.token",
+       "pinsecurity":"user.pin",
+       "pinsecurity2":"user.pin2",
+
+       "acceptvisibility":"'bisaFriend.acceptVisibility'| translate",
+       "acceptnotvisibility":"'bisaFriend.notAcceptVisibility'| translate",
+
+       "ci":"3149063",
+       "bdate":"25091979",
+       "sms":"1234",
+       "pin":"1234",
+
+       "wrongSMS1":"5223",
+       "wrongSMS2":"4321"
+    }
+  }
+}
